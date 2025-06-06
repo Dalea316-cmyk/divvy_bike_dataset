@@ -29,4 +29,8 @@ Created new features such as 'ride_duration_minutes', 'day_of_week', 'ride_date,
 5. **In-depth Analysis:** Focused on specific questions related to rider types, temporal patterns, station popularity and ride duration.
 **Tools and Technologies:**
 * **MySQL(RDBMS):** Primary Structured Query Language.
-* **SQL:** For data manipulation, summary statistics and analysis.  
+* **SQL:** For data manipulation, summary statistics and analysis.
+* **Power BI Desktop:** For data visualization and reporting.
+* **Git & GitHub:** For version control and project hosting.
+## Key Findings & Insights
+* **Peak Ridership:** Ri
