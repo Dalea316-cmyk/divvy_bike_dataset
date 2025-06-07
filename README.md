@@ -38,4 +38,11 @@ Created new features such as 'ride_duration_minutes', 'day_of_week', 'ride_date,
 * **Popular Stations (Top 10):** The analysis identified top 10 key stations with consistently high activity, often located near a popular areas of Chicago, business districts and suburbs that suggest the bike service is primarly used in these regions.
 * **Classic Bike Popularity:**Classic bikes are increasingly popular often used for shorter trips and are accessible,and easier to use.They are cost effective and used for a more traditional cycling experience rather than opting for electric bikes that cost extra and complexity for shorter trips.
 ## Visualizations
-Below are
+Below are some key visualizations that highligt the findings from this analysis:
+### 1. User Ride Distribution by day of week.![user Ride Distribution by day of week](user_ride_distribution_by_day_of_week.jpg)
+
+
+
+
+
+
