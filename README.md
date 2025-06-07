@@ -40,7 +40,9 @@ Created new features such as 'ride_duration_minutes', 'day_of_week', 'ride_date,
 ## Visualizations
 Below are some key visualizations that highligt the findings from this analysis:
 ### 1. User Ride Distribution by day of week.
-> ![image alt](
+![image alt](image_url)
+
+
 
 
 
