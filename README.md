@@ -39,7 +39,7 @@ Created new features such as 'ride_duration_minutes', 'day_of_week', 'ride_date,
 * **Classic Bike Popularity:**Classic bikes are increasingly popular often used for shorter trips and are accessible,and easier to use.They are cost effective and used for a more traditional cycling experience rather than opting for electric bikes that cost extra and complexity for shorter trips.
 ## Visualizations
 Below are some key visualizations that highligt the findings from this analysis:
-### 1. User Ride Distribution by day of week.![user Ride Distribution by day of week](C:\Users\Shivansh\OneDrive\Documets\GitHub\divvy_bike_dataset\Plots\user_ride_distribution_by_day_of_week.jpg)
+### 1. User Ride Distribution by day of week.
 
 
 
