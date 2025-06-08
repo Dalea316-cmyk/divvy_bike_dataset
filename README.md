@@ -39,8 +39,9 @@ Created new features such as 'ride_duration_minutes', 'day_of_week', 'ride_date,
 * **Classic Bike Popularity:**Classic bikes are increasingly popular often used for shorter trips and are accessible,and easier to use.They are cost effective and used for a more traditional cycling experience rather than opting for electric bikes that cost extra and complexity for shorter trips.
 ## Visualizations
 Below are some key visualizations that highligt the findings from this analysis:
-### 1. User Ride Distribution by day of week.
-![Image](https://github.com/user-attachments/assets/d4a87b8f-9cce-4ad8-a9de-deefe0866732) *This 
+### 1. Top 10 Busiest Start Stations.
+![Image](https://github.com/user-attachments/assets/d4a87b8f-9cce-4ad8-a9de-deefe0866732) *This stacked column chart displays the ten most frequently used starting stations across the Divvy network*
+### 2. User Ride Distribution By Day of Week. 
 
 
 
