@@ -43,6 +43,9 @@ Below are some key visualizations that highligt the findings from this analysis:
 ![Image](https://github.com/user-attachments/assets/d4a87b8f-9cce-4ad8-a9de-deefe0866732) 
 *This stacked column chart displays the ten most frequently used starting stations across the Divvy network*
 ### 2. User Ride Distribution By Day of Week. 
+![Image](https://github.com/user-attachments/assets/6c69572c-4196-4067-963d-c17e6ead2996)
+* This clustered column chart illustrates the daily ridership between the annualmembers and casual riders during the weekdays showing clear peaks on Mondayand Tuesday and Sunday being the lowest*
+### Trip Distribution by User Type.
 
 
 
