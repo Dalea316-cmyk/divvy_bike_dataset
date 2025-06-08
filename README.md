@@ -57,7 +57,8 @@ cd divvy_bike_dataset'''
 2. **Download Data:** Obtain the Divvy trip data CSV files for the relevant period from the [Divvy website](https://divvy-tripdata.s3.amazonqws.com/index.html) and place them in the 'data/directory.
 ## Contact 
 Feel free to reach out if you have any questions or feedback:
-* **LinkedIn:**
+* **LinkedIn:** [https://www.linkedin.com/in/dalea-kumar-74679a369]
+* **GitHub:** [
 
 
 
