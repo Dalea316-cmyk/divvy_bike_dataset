@@ -50,6 +50,11 @@ Below are some key visualizations that highligt the findings from this analysis:
 * This pie chart shows a comparison of trip counts between members and casual riders, highlighting their distinct usage *
 ## How to Run the Project
 To replicate this analysis locally, follow these steps:
+1. **Clone the repository:**
+ '''bash
+ git clone [https://github.com/Dalea316-cmyk/divvy_bike_dataset.git](https://github.com/Dalea316-cmyk/divvy_bike_dataset.git)
+cd divvy_bike_dataset'''
+
 
 
 
