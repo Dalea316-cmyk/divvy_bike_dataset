@@ -46,7 +46,8 @@ Below are some key visualizations that highligt the findings from this analysis:
 ![Image](https://github.com/user-attachments/assets/6c69572c-4196-4067-963d-c17e6ead2996)
 * This clustered column chart illustrates the daily ridership between the annualmembers and casual riders during the weekdays showing clear peaks on Mondayand Tuesday and Sunday being the lowest*
 ### 3. Trip Distribution by User Type.
-
+![Image](https://github.com/user-attachments/assets/a8118d34-f3c0-4875-bbc9-90b85b696ef1)
+*
 
 
 
