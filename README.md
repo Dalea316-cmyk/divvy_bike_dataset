@@ -42,13 +42,14 @@ Below are some key visualizations that highligt the findings from this analysis:
 ### 1. Top 10 Busiest Start Stations.
 ![Image](https://github.com/user-attachments/assets/d4a87b8f-9cce-4ad8-a9de-deefe0866732) 
 
-* This stacked column chart displays the ten most frequently used starting stations across the Divvy network *
+* This stacked column chart displays the ten most frequently used starting stations across the Divvy network
 ### 2. User Ride Distribution By Day of Week. 
 ![Image](https://github.com/user-attachments/assets/6c69572c-4196-4067-963d-c17e6ead2996)
 * This clustered column chart illustrates the daily ridership between the annualmembers and casual riders during the weekdays showing clear peaks on Mondayand Tuesday and Sunday being the lowest *
 ### 3. Trip Distribution by User Type.
 ![Image](https://github.com/user-attachments/assets/a8118d34-f3c0-4875-bbc9-90b85b696ef1)
-* This pie chart shows a comparison of trip counts between members and casual riders, highlighting their distinct usage *
+* This pie chart shows a comparison of trip counts between members and casual riders, highlighting their distinct usage
+
 ## How to Run the Project
 To replicate this analysis locally, follow these steps:
 1. **Clone the repository:**
