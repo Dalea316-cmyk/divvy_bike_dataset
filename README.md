@@ -55,8 +55,9 @@ To replicate this analysis locally, follow these steps:
  git clone [https://github.com/Dalea316-cmyk/divvy_bike_dataset.git](https://github.com/Dalea316-cmyk/divvy_bike_dataset.git)
 cd divvy_bike_dataset'''
 2. **Download Data:** Obtain the Divvy trip data CSV files for the relevant period from the [Divvy website](https://divvy-tripdata.s3.amazonqws.com/index.html) and place them in the 'data/directory.
-
-
+## Contact 
+Feel free to reach out if you have any questions or feedback:
+* **LinkedIn:**
 
 
 
