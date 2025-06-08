@@ -40,7 +40,7 @@ Created new features such as 'ride_duration_minutes', 'day_of_week', 'ride_date,
 ## Visualizations
 Below are some key visualizations that highligt the findings from this analysis:
 ### 1. Top 10 Busiest Start Stations.
-![Image](https://github.com/user-attachments/assets/d4a87b8f-9cce-4ad8-a9de-deefe0866732) 
+ 
 
 * This stacked column chart displays the ten most frequently used starting stations across the Divvy network
 ### 2. User Ride Distribution By Day of Week. 
