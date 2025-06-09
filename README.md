@@ -50,7 +50,7 @@ Below are some key visualizations that highligt the findings from this analysis:
 ![Image](https://github.com/user-attachments/assets/a8118d34-f3c0-4875-bbc9-90b85b696ef1)
 * This pie chart shows a comparison of trip counts between members and casual riders, highlighting their distinct usage
 * For more details of my visualizations please click on the following link to my pdf: 
-[Divvy_trips_project_MYSQL sql_2025_REDO_Visualizations.pdf](https://github.com/user-attachments/files/20643881/Divvy_trips_project_MYSQL.sql_2025_REDO_Visualizations.pdf)
+
 ## How to Run the Project
 To replicate this analysis locally, follow these steps:
 1. **Clone the repository:**
