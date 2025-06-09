@@ -1,3 +1,5 @@
+03_clean_backup_combined_divvy_pro255.sql
+ 
 SELECT start_time
 FROM divvy_trips_pro2025.backup_combined_divvy_pro255;
 
@@ -25,9 +27,6 @@ UPDATE divvy_trips_pro2025.backup_combined_divvy_pro255
 SET ride_duration_minutes = 
 TIMESTAMPDIFF(MINUTE, start_time,end_time);
 
-SELECT ride_duration_minutes
-FROM divvy_trips_pro2025.backup_combined_divvy_pro255;
-
 DELETE FROM divvy_trips_pro2025.backup_combined_divvy_pro255
 WHERE ride_duration_minutes < 0;
 
@@ -39,9 +38,6 @@ WHERE ride_duration_minutes > 60;
 
 UPDATE divvy_trips_pro2025.backup_combined_divvy_pro255
 SET trip_month_name = MONTHNAME(ride_date);
-
-SELECT trip_month_name
-FROM divvy_trips_pro2025.backup_combined_divvy_pro255;
 
 ALTER TABLE divvy_trips_pro2025.backup_combined_divvy_pro255
 ADD COLUMN day_of_week VARCHAR(10);
@@ -57,9 +53,6 @@ WHEN 5 THEN 'Thursday'
 WHEN 6 THEN 'Friday'
 WHEN 7 THEN 'Saturday'
 END;
-
-SELECT day_of_week
-FROM divvy_trips_pro2025.backup_combined_divvy_pro255;
 
 ALTER TABLE divvy_trips_pro2025.backup_combined_divvy_pro255
 RENAME COLUMN member_casual TO 
@@ -93,6 +86,33 @@ ALTER TABLE divvy_trips_pro2025.backup_combined_divvy_pro255
 MODIFY COLUMN subscription_type MEDIUMTEXT
 AFTER trip_month_name;
 
+UPDATE divvy_trips_pro2025.backup_combined_divvy_pro255
+SET
+ride_id = 
+TRIM(ride_id),
+rideable_type = 
+TRIM(rideable_type),
+start_station_name = 
+TRIM(start_station_name),
+start_station_id =
+TRIM(start_station_id),
+end_station_name = 
+TRIM(end_station_name),
+end_station_id =
+TRIM(end_station_id),
+subscription_type =
+TRIM(subscription_type),
+trip_month_name =
+TRIM(trip_month_name),
+day_of_week =
+TRIM(day_of_week);
+
+SELECT start_station_name
+FROM divvy_trips_pro2025.backup_combined_divvy_pro255
+WHERE start_station_name IS NULL;
+
+04_analyze_backup_combined_divvy_pro255.sql
+ 
 SELECT subscription_type, COUNT(*) AS
 num_trips
 FROM divvy_trips_pro2025.backup_combined_divvy_pro255
@@ -130,38 +150,3 @@ SELECT MONTHNAME(ride_date) AS
 MONTH, COUNT(*) AS number_of_trips
 FROM divvy_trips_pro2025.backup_combined_divvy_pro255
 GROUP BY MONTHNAME(ride_date);
-
-UPDATE divvy_trips_pro2025.backup_combined_divvy_pro255
-SET
-ride_id = 
-TRIM(ride_id),
-rideable_type = 
-TRIM(rideable_type),
-start_station_name = 
-TRIM(start_station_name),
-start_station_id =
-TRIM(start_station_id),
-end_station_name = 
-TRIM(end_station_name),
-end_station_id =
-TRIM(end_station_id),
-subscription_type =
-TRIM(subscription_type),
-trip_month_name =
-TRIM(trip_month_name),
-day_of_week =
-TRIM(day_of_week);
-
-SELECT start_station_name
-FROM divvy_trips_pro2025.backup_combined_divvy_pro255
-WHERE start_station_name IS NULL;
-
-
-
-
-
-
-
-
-
-
