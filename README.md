@@ -13,7 +13,7 @@ The dataset contains detailedinformation about each trip, including:
 * Start and End Latitude/Longitude
 * Subscription Type (Member/ Casual)
 * Rideable Type (classic_bike, electric_bike, docked_bike)
-* 
+   
 ## Key Questions & Objectives
 This analysis sought to answer the following questions:
 * What are the overall trends in Divvy ridership (e.g.,total trips, total duration)?
@@ -38,13 +38,14 @@ Created new features such as 'ride_duration_minutes', 'day_of_week', 'ride_date,
 * **Power BI Desktop:** For data visualization and reporting.
 * **Git & GitHub:** For version control and project hosting.
   
-##Key Findings & Insights
+## Key Findings & Insights
 * **Peak Ridership:** Ridership peaks during the winter months 9January and February) and during spring months (March - May) and on weekdays during morning and evening commute hours. There is an increase of ridership during Monday and Tuesday and Sunday has the lowest number of rides.
 * **Member vs. Casual Riders:** Annual members tend to use Divvy for shorter, more frequent commutes especcialy on Tuesday, while casual riders opt for longer, more leisure-oriented trips, more so on weekends.
 * **Popular Stations (Top 10):** The analysis identified top 10 key stations with consistently high activity, often located near a popular areas of Chicago, business districts and suburbs that suggest the bike service is primarly used in these regions.
 * **Classic Bike Popularity:**Classic bikes are increasingly popular often used for shorter trips and are accessible,and easier to use.They are cost effective and used for a more traditional cycling experience rather than opting for electric bikes that cost extra and complexity for shorter trips.
  
-##Visualizations
+## Visualizations
+
 Below are some key visualizations that highligt the findings from this analysis:
 ### 1. Top 10 Busiest Start Stations.
 ![Image](https://github.com/user-attachments/assets/c44434cb-d096-4e59-baeb-e94cc6638632) 
