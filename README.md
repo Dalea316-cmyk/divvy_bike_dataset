@@ -73,7 +73,7 @@ cd divvy_bike_dataset'''
 ## Contact 
 Feel free to reach out if you have any questions or feedback:
 * **LinkedIn:** [https://www.linkedin.com/in/dalea-kumar-74679a369]
-* **GitHub:** [https://github.com/Dalea318-cmyk]
+* **GitHub:** [https://github.com/Dalea316-cmyk]
 
 ## License
 This project open-sourced under the [MIT License](LICENSE).
