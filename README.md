@@ -1,11 +1,13 @@
 # Divvy Bike Sharing Data Analysis: Uncovering Chicago's Cycling Habits
 ![Divvy bike logo](https://github.com/user-attachments/assets/e3582037-8864-4b5f-8f50-3cf08b47fa6d)
 
-"This dataset compiles individual trip data from Divvy, Chicago's popular bike-sharing system. It provides a comprehensive look ito rider behaviour, popular routes, analyze seasonality, and usage patterns across the entirety of 2022 to highlight trends in a major urban bike-sharing system. Originally sourced for the Google Data Analytics Capstone project. This dataset offers rich opportunities for exploring urban mobility."
+This dataset compiles individual trip data from Divvy, Chicago's popular bike-sharing system. It provides a comprehensive look ito rider behaviour, popular routes, analyze seasonality, and usage patterns across the entirety of 2022 to highlight trends in a major urban bike-sharing system. Originally sourced for the Google Data Analytics Capstone project. This dataset offers rich opportunities for exploring urban mobility.
 
 ## Data Source
 The data used in this analysis is publicly available from the Divvy Bikes website. Specifically, this project utilized the following dataset(s):
-* [Divvy Trip Data - 2022](https://divvy-tripdata.s3.amazonaws.com/index.html
+* [Divvy Trip Data - 2022]
+ (https://divvy-tripdata.s3.amazonaws.com/index.html)
+
 The dataset contains detailed information about each trip, including:
 * Ride ID
 * Start and End Station Names/IDs
